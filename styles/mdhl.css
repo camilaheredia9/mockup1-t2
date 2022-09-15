@@ -1,0 +1,84 @@
+/* dar estilo a los enlaces una vez visitados */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 80vw;
+    margin: auto;
+}
+
+a:active{
+    color: #000;
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+}
+
+header div{
+    background: linear-gradient( rgba(102,102,102,0.2) 0%, rgba(0,0,0,0.5) 100%), url(../assets/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+    width: 100%;
+    min-height: 50vh;   
+}
+
+header h1{
+    font-size: 6rem;
+}
+
+header h2{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.6rem 0;
+}
+
+#logo{
+    width: 10rem;
+    position: absolute;
+    top: 35rem;
+    left: 94rem;
+}
+
+main{
+    display: flex;
+    padding: 3.5rem 1rem;
+    font-size: 1.8rem;
+}
+
+main nav{
+    display: flex;
+    flex-direction: column;
+}
+
+#main-index nav{
+    width: 16%;
+}
+
+main nav a{
+    padding-bottom: 6rem;
+}
+
+main dd{
+    margin: 0 0 2rem 1rem;
+}
+
+#main-about nav{
+    width: 30%; /* !! */
+}
+
+#main-contact div p:first-child{
+    margin-bottom: 1.4rem;
+}
