@@ -43,7 +43,7 @@ header h2{
     padding: 0.6rem 0;
 }
 
-#logo{
+.logo{
     width: 10rem;
     position: absolute;
     top: 35rem;
@@ -52,37 +52,30 @@ header h2{
 
 main{
     display: flex;
-    padding: 3.5rem 1rem;
+    padding: 3rem 2rem;
     font-size: 1.8rem;
+    width: 100%;
 }
 
 main nav{
+    width: 15%;
     display: flex;
     flex-direction: column;
 }
 
-/* main nav{
-    width: 16%;
-} */
+main section{
+    width: 60%;
+}
 
 main nav a{
-    margin-bottom: 6rem;
+    margin-bottom: 6.4rem;
 }
 
-main dd{
-    margin: 0 0 4rem 1rem;
+main section h2{
+    margin-bottom: 1.2rem;
+    font-size: 2.4rem;
 }
 
-
-#main-about nav a{
-    margin-bottom: 8rem;
-}
-
-#main-about dl,
-#main-contact div{
-    margin-left: 4rem;
-}
-
-#main-contact div p{
-    margin-bottom: 2rem;
+main section p{
+    padding: 0 0 2rem 1rem;
 }
