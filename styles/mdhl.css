@@ -64,7 +64,7 @@ main nav{
 }
 
 main section{
-    width: 60%;
+    width: 85%;
 }
 
 main nav a{
@@ -81,22 +81,48 @@ main section p{
 }
 
 /* ## RULES ## */
-.main-sin-display{
-    width: 75%;
-    margin: auto;
-    display: block;
-    padding: 5rem 2rem;
+.contenedor-rules{
+    padding-left: 4rem;
 }
 
-.main-sin-display div{
-    text-align: center;
+.contenedor-rules div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 22%;
 }
 
-.main-sin-display h3{
+.contenedor-rules p{
+    padding-left: 0;
+}
+
+.contenedor-rules h3{
     margin: 3rem 0 2rem;
 }
 
-.main-sin-display p::first-letter{
+.contenedor-rules p::first-letter{
     margin-left: 3rem;
 }
 
+.contenedor-rules li{
+    margin-bottom: 2rem;
+}
+
+.lista-regulations h4,
+.lista-regulations p{
+    display: inline;
+}
+
+.lista-fields li{
+    margin-bottom: 0;
+    list-style-type: lower-alpha;
+}
+
+.contenedor-rules ul:last-of-type{
+    list-style-type: circle;
+    margin-left: 6rem;
+}
+
+/* resta:
+modificar li::marker
+*/
