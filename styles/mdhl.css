@@ -83,6 +83,7 @@ main section p{
 /* ## RULES ## */
 .contenedor-rules{
     padding-left: 4rem;
+    list-style-position: inside;
 }
 
 .contenedor-rules div{
@@ -106,6 +107,10 @@ main section p{
     margin-bottom: 2rem;
 }
 
+.contenedor-rules li::marker{
+    font-weight: 600;
+}    
+
 .lista-regulations h4,
 .lista-regulations p{
     display: inline;
@@ -128,6 +133,7 @@ main section p{
 /* ## GAME INFO ## */
 .contenedor-gameInfo{
     width: 70%;
+    padding-left: 4rem;
 }
 
 .contenedor-gameInfo div h2{
@@ -142,9 +148,21 @@ main section p{
     text-decoration: underline;
 }
 
-/* tabla */
+table{
+    margin: 2rem 0 6rem;
+}
 
-.contenedor-gameInfo p span{
+th,
+td{
+    padding: 0.6rem 5rem 0.6rem 0.6rem;
+    text-align: left;
+}
+
+table td:first-child{
+    text-align: right;
+}
+
+.contenedor-gameInfo article p span{
     font-weight: 600;
 }
 
@@ -156,7 +174,3 @@ main section p{
     display: flex;
     justify-content: space-between;
 }
-
-/* resta: en rules:
-modificar li::marker
-*/
