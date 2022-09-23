@@ -174,3 +174,7 @@ table td:first-child{
     display: flex;
     justify-content: space-between;
 }
+
+.lista-allPlay{
+    list-style-position: initial;
+}
